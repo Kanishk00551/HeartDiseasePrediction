@@ -31,13 +31,35 @@ Develop a binary classification model to predict heart disease using various cli
 
 ## 🧠 Technologies & Skills Used
 
-* **Programming Language**: Python
-* **Libraries**:
+🧠 Technologies & Libraries Used
+Programming Language: Python – the de facto language for machine learning and data science due to its simplicity and extensive ecosystem.
 
-  * `NumPy` for numerical computations
-  * `Pandas` for data handling and manipulation
-  * `Matplotlib` & `Seaborn` for data visualization
-  * `Scikit-learn` for model building, preprocessing, and evaluation
+Libraries & Tools:
+
+NumPy
+Fundamental for numerical operations. Used for array handling, broadcasting, and efficient mathematical computations that form the backbone of matrix operations in ML models.
+
+Pandas
+Ideal for structured data manipulation. It provides powerful data structures like DataFrame, allowing for data wrangling, cleaning, feature engineering, and exploration.
+
+Matplotlib & Seaborn
+For creating insightful and publication-quality visualizations. Seaborn builds on Matplotlib and offers built-in support for statistical plots, correlation matrices, categorical plots, etc.
+
+Scikit-learn (sklearn)
+The core library used for building and evaluating machine learning models. It supports:
+
+A variety of models (Logistic Regression, SVM, Decision Trees, Random Forest, etc.)
+
+Model selection tools like train_test_split, cross_val_score
+
+Hyperparameter tuning using GridSearchCV and RandomizedSearchCV to systematically search the best parameters
+
+Pipeline support for combining preprocessing and modeling into a clean, efficient workflow
+
+Metrics like accuracy, precision, recall, F1-score, and ROC-AUC for in-depth model evaluation
+
+Pickle / Joblib
+For model serialization – used to save and load trained models efficiently for deployment and reuse.
 * **Concepts**:
 
   * Exploratory Data Analysis (EDA)
@@ -96,7 +118,11 @@ Develop a binary classification model to predict heart disease using various cli
 
 ## ✅ Results
 
-> *Model performance and evaluation metrics will be added here after experimentation.*
+Best Performing Model: Random Forest Classifier
+Accuracy: 91.0%
+Precision: 92.0%
+Recall: 90.0%
+F1-Score: 91.0%
 
 ---
 
