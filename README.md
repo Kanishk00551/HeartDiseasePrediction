@@ -117,6 +117,5 @@ Develop a binary classification model to predict heart disease using various cli
 
 ---
 
-## 🙋‍♂️ Author
 
 
