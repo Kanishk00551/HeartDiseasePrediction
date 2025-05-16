@@ -25,49 +25,40 @@ This project applies supervised machine learning techniques to analyze clinical 
 ## 🎯 Project Objective
 
 Develop a binary classification model to predict heart disease using various clinical features.
-**Success Metric**: Achieve at least **95% accuracy** during the proof of concept phase.
+**Success Metric**: Achieve at least **90% accuracy** during the proof of concept phase.
 
 ---
 
-## 🧠 Technologies & Skills Used
 
-🧠 Technologies & Libraries Used
-Programming Language: Python – the de facto language for machine learning and data science due to its simplicity and extensive ecosystem.
+## 🧠 Technologies & Libraries Used
 
-Libraries & Tools:
+* **Programming Language**: `Python` – the de facto language for machine learning and data science due to its simplicity and extensive ecosystem.
 
-NumPy
-Fundamental for numerical operations. Used for array handling, broadcasting, and efficient mathematical computations that form the backbone of matrix operations in ML models.
+* **Libraries & Tools**:
 
-Pandas
-Ideal for structured data manipulation. It provides powerful data structures like DataFrame, allowing for data wrangling, cleaning, feature engineering, and exploration.
+  * **NumPy**
+    Fundamental for numerical operations. Used for array handling, broadcasting, and efficient mathematical computations that form the backbone of matrix operations in ML models.
 
-Matplotlib & Seaborn
-For creating insightful and publication-quality visualizations. Seaborn builds on Matplotlib and offers built-in support for statistical plots, correlation matrices, categorical plots, etc.
+  * **Pandas**
+    Ideal for structured data manipulation. It provides powerful data structures like `DataFrame`, allowing for data wrangling, cleaning, feature engineering, and exploration.
 
-Scikit-learn (sklearn)
-The core library used for building and evaluating machine learning models. It supports:
+  * **Matplotlib & Seaborn**
+    For creating insightful and publication-quality visualizations. Seaborn builds on Matplotlib and offers built-in support for statistical plots, correlation matrices, categorical plots, etc.
 
-A variety of models (Logistic Regression, SVM, Decision Trees, Random Forest, etc.)
+  * **Scikit-learn (sklearn)**
+    The core library used for building and evaluating machine learning models. It supports:
 
-Model selection tools like train_test_split, cross_val_score
+    * A variety of models (Logistic Regression, SVM, Decision Trees, Random Forest, etc.)
+    * **Model selection tools** like `train_test_split`, `cross_val_score`
+    * **Hyperparameter tuning** using `GridSearchCV` and `RandomizedSearchCV` to systematically search the best parameters
+    * **Pipeline** support for combining preprocessing and modeling into a clean, efficient workflow
+    * **Metrics** like accuracy, precision, recall, F1-score, and ROC-AUC for in-depth model evaluation
 
-Hyperparameter tuning using GridSearchCV and RandomizedSearchCV to systematically search the best parameters
+  * **Pickle / Joblib**
+    For model serialization – used to save and load trained models efficiently for deployment and reuse.
 
-Pipeline support for combining preprocessing and modeling into a clean, efficient workflow
+ ---
 
-Metrics like accuracy, precision, recall, F1-score, and ROC-AUC for in-depth model evaluation
-
-Pickle / Joblib
-For model serialization – used to save and load trained models efficiently for deployment and reuse.
-* **Concepts**:
-
-  * Exploratory Data Analysis (EDA)
-  * Feature engineering and selection
-  * Classification algorithms (Logistic Regression, Random Forest, etc.)
-  * Cross-validation and performance evaluation (confusion matrix, accuracy, precision, recall, F1-score)
-
----
 
 ## 📊 Features Description
 
